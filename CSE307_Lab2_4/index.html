@@ -11,46 +11,47 @@
     <form name="Register form" method="post">
         <table border="1">
             <tr>
-                <th>Full Name *</th>
-                <td><input type="text" size="53" required="true"></td>
+                <th><label for="name">Full Name*</label></th>
+                <td><input type="text" size="53" required="true" id="name" name="name"></td>
             </tr>
             <tr>
-                <th>Email*</th>
-                <td><input type="email" size="53" required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                <th><label for="email">Email*</label></th>
+                <td><input type="email" size="53" required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                        id="email">
                 </td>
             </tr>
             <tr>
-                <th>Password</th>
-                <td><input type="password" size="53" required="true"></td>
+                <th><label for="password">PassWord*</label></th>
+                <td><input type="password" size="53" required="true" id="password"></td>
             </tr>
             <tr>
-                <th>Confirm Password</th>
-                <td><input type="password" size="53" required="true"></td>
+                <th><label for="comfirm password">Confirm password*</label></th>
+                <td><input type="confirm password" size="53" required="true" id="comfirm password"></td>
             </tr>
             <tr>
-                <th>Phone number*</th>
-                <td><input type="tel" size="53" required="required"></td>
+                <th><label for="Phone Number">Phone Number*</label></th>
+                <td><input type="tel" size="53" required="required" id="Phone Number"></td>
             </tr>
 
             <tr>
-                <th>Address</th>
-                <td><textarea name="" cols="55" rows="5" required="true"></textarea></td>
+                <th><label for="Address">Address</label></th>
+                <td><textarea name="" cols="55" rows="5" required="true" id="Address"></textarea></td>
             </tr>
             <tr>
-                <th>City</th>
-                <td><input type="text" placeholder="Enter your City"><label for=""> State </label><input type="text"
-                        placeholder="Enter your City" required="true"></td>
+                <th><label for="city">City</label></th>
+                <td><input type="text" placeholder="Enter your City" id="city"><label for="state"> State </label><input
+                        type="text" placeholder="Enter your State" required="true" id="state"></td>
                 <td></td>
             </tr>
             <tr>
-                <th>Zip/Postal Code</th>
-                <td><input type="text" placeholder="Enter your Zip/Postal Code" size="53"></td>
+                <th><label for="Zip/Postal Cod">Zip/Postal Cod</label></th>
+                <td><input type="text" placeholder="Enter your Zip/Postal Code" size="53" id="Zip/Postal Cod"></td>
             </tr>
             <tr>
-                <th>Country</th>
+                <th><label for="Country">Country</label></th>
                 <td>
 
-                    <select name="Country" id="" required="true">
+                    <select name="Country" id="Country" required="true" id>
                         <option value="" hidden>[Select your Country]</option>
                         <option value="Viet Nam">Viet Nam</option>
                         <option value="America">America</option>
@@ -59,27 +60,28 @@
                 </td>
             </tr>
             <tr>
-                <th>Birthday</th>
-                <td><input type="date" name="" id="" required="true" required="true"></td>
+                <th><label for="Birthday">Birthday</label></th>
+                <td><input type="date" name="Birthday" id="Birthday" required="true"></td>
             </tr>
             <tr>
-                <th>Gender</th>
+                <th><label for="Gender">Gender</label></th>
                 <td>
-                    <select name="Country" id="" required="true">
+                    <select name="Country" id="Gender" required="true">
                         <option value="Nam">Male</option>
                         <option value="Nu">Female</option>
                     </select>
                 </td>
             </tr>
             <tr>
-                <th>Starting date</th>
-                <td><input type="radio" name="date"><label> Spring </label> <input type="radio" name="date"><label>
+                <th><label for="Starting date">Starting date</label></th>
+                <td><input type="radio" name="date" id="Starting date"><label for="Spring"> Spring </label> <input
+                        type="radio" name="date" id="Spring"><label>
                         Summer </label></td>
             </tr>
             <tr>
-                <th>Comments</th>
-                <td><textarea name="" cols="55" rows="5" placeholder="Please send us more information"
-                        required="true"></textarea></td>
+                <th><label for="Comments">Comments</label></th>
+                <td><textarea name="" cols="55" rows="5" placeholder="Please send us more information" required="true"
+                        id="Comments"></textarea></td>
             </tr>
             <tr>
 
