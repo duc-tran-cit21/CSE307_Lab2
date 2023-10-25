@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form name="Register form" method="post">
+        <table border="1">
+            <tr>
+                <th>Full Name *</th>
+                <td><input type="text" size="53" required="true"></td>
+            </tr>
+            <tr>
+                <th>Email*</th>
+                <td><input type="email" size="53" required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                </td>
+            </tr>
+            <tr>
+                <th>Password</th>
+                <td><input type="password" size="53" required="true"></td>
+            </tr>
+            <tr>
+                <th>Confirm Password</th>
+                <td><input type="password" size="53" required="true"></td>
+            </tr>
+            <tr>
+                <th>Phone number*</th>
+                <td><input type="tel" size="53" required="required"></td>
+            </tr>
+
+            <tr>
+                <th>Address</th>
+                <td><textarea name="" cols="55" rows="5" required="true"></textarea></td>
+            </tr>
+            <tr>
+                <th>City</th>
+                <td><input type="text" placeholder="Enter your City"><label for=""> State </label><input type="text"
+                        placeholder="Enter your City" required="true"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Zip/Postal Code</th>
+                <td><input type="text" placeholder="Enter your Zip/Postal Code" size="53"></td>
+            </tr>
+            <tr>
+                <th>Country</th>
+                <td>
+
+                    <select name="Country" id="" required="true">
+                        <option value="" hidden>[Select your Country]</option>
+                        <option value="Viet Nam">Viet Nam</option>
+                        <option value="America">America</option>
+                        <option value="China">Japan</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Birthday</th>
+                <td><input type="date" name="" id="" required="true" required="true"></td>
+            </tr>
+            <tr>
+                <th>Gender</th>
+                <td>
+                    <select name="Country" id="" required="true">
+                        <option value="Nam">Male</option>
+                        <option value="Nu">Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Starting date</th>
+                <td><input type="radio" name="date"><label> Spring </label> <input type="radio" name="date"><label>
+                        Summer </label></td>
+            </tr>
+            <tr>
+                <th>Comments</th>
+                <td><textarea name="" cols="55" rows="5" placeholder="Please send us more information"
+                        required="true"></textarea></td>
+            </tr>
+            <tr>
+
+                <td colspan="2">
+                    <center><button>Submit</button></center>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+
+
+</body>
+
+</html>
